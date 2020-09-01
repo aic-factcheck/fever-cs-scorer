@@ -164,7 +164,7 @@ if __name__ == "__main__":
     with open("/home/bertik/diplomka/fact-checking/results/res_.test.jsonl") as a, open(
            "/home/bertik/diplomka/fact-checking/results/res.test.jsonl", "w") as b:
        for line in a:
-           print(json.dumps(json.loads(line), ensure_ascii=False), file=b)
+           #print(json.dumps(json.loads(line), ensure_ascii=False), file=b)
 
     with open("/home/bertik/diplomka/fact-checking/results/res.test.jsonl") as ir_, open(
             "/home/bertik/diplomka/fact-checking/results/test.jsonl") as actual_:
